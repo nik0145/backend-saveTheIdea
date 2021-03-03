@@ -9,7 +9,9 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@architect/sandbox": "^3.3.7"
+  },
   "dependencies": {
     "knex": "<0.20.0",
     "sqlite3": "5.0.0",

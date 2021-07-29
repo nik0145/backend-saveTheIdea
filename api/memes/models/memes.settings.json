@@ -21,15 +21,13 @@
       "plugin": "upload",
       "required": true
     },
-    "name": {
-      "type": "string"
+    "users_permissions_user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "memes"
     },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "image",
-        "video"
-      ]
+    "tags": {
+      "collection": "tags"
     }
   }
 }

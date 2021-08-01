@@ -28,6 +28,10 @@
     },
     "tags": {
       "collection": "tags"
+    },
+    "publish": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

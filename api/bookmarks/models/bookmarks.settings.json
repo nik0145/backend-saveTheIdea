@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "bookmarks",
   "info": {
-    "name": "bookmarks"
+    "name": "bookmarks",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,6 +13,10 @@
   "attributes": {
     "url": {
       "type": "string"
+    },
+    "publish": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
